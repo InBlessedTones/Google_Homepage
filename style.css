@@ -1,10 +1,15 @@
 * {
-    /*border: 1px dotted #000000;*/
+    border: 1px dotted #000000;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: Arial, sans-serif;
+    font-size: 13px;
     color: #222;
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 /* Header Start */
@@ -24,7 +29,6 @@ header {
 .topnav li {
     display: inline-flex;
     vertical-align: middle;
-    font-size: 13px;
     padding-left: 11px;
 }
 
@@ -37,57 +41,63 @@ i.md-36 {
 #main1 {
     height: 150px;
     width: 100%;
-    margin-top: 89px;
+    position: relative;
+    margin-top: 95px;
+    background-color: #C2C2C2;
 }
 
 .logo {
-    height: 92px;
     width: 272px;
     position: relative;
-    margin: 50px auto;
+    margin: 35px auto;
 }
 
 .logo-subtext {
-    font-family: Roboto-regular, arial, sans-serif;
+    font-family: Roboto, arial, sans-serif;
+    font-size: 16px;
     color: #4285f4;
-    position: absolute;
-    bottom: 0;
-    right: 30px;
+    position: relative;
+    float: right;
+    right: 34px;
+    bottom: 23px;
 }
 
 img {
     height: 92px;
     width: 272px;
-    position: absolute;
-    bottom: 0;
+    margin: 0 auto;
 }
 
 #main2 {
     width: 100%;
     height: 150px;
+    position: relative;
     background-color: #F86868;
 }
 
-.sform {
+form {
+    width: 600px;
     position: relative;
-    width: 650px;
-    height: 100px;
-    margin: 10px auto;
+    margin: 0 auto;
 }
 
-form {
+.searchbar input {
     width: 584px;
     height: 44px;
-    margin: 0 40px;
-    line-height: 16px;
 }
 
-input {
-    width: 100%;
-    height: 44px;
-    padding: 0 15px;
+.button {
+    padding-top: 18px;
+    display: inline-block;
 }
 
+.button input {
+    font-weight: bold;
+    height: 36px;
+    padding: 0 16px;
+    margin: 11px 4px;
+    color: #757575;
+}
 
 
 /* Main End - Footer Start */
@@ -98,7 +108,6 @@ footer {
     background-color: #F2F2F2;
     position: absolute;
     bottom: 0;
-    font-size: 13px;
 }
 
 footer li {
