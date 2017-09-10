@@ -1,19 +1,10 @@
 * {
-    border: 1px dotted #000000;
+    /*border: 1px dotted #000000;*/
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: Arial, sans-serif;
     color: #222;
-}
-
-#container {
-    width: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
 }
 
 /* Header Start */
@@ -26,20 +17,19 @@ header {
 
 .topnav {
     float: right;
-    margin: 0 10px;
+    padding-right: 30px;
+    margin-top: 12px;
 }
-
 
 .topnav li {
     display: inline-flex;
     vertical-align: middle;
-    padding: 5px;
     font-size: 13px;
+    padding-left: 11px;
 }
 
 i.md-36 {
     font-size: 36px;
-
 }
 
 /* Header End - Main Start */
